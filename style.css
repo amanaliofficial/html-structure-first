@@ -1,0 +1,58 @@
+.container-fluid{
+    border: 1px solid red;
+    margin: auto;
+}
+.navbarview{
+    border: 1px solid red;
+}
+.navbar{
+    margin: 0%;
+   
+}
+.Extranavbar{
+    border: 1px solid red;
+ 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.infoclass{
+    border: 1px solid red;
+    text-align: center;
+    height: 400px;
+   
+}
+.sliderclass{
+    border: 1px solid red;
+    text-align: center;
+}
+.p{
+    margin: auto;
+}
+.allimagesclass{
+    border: 1px solid red;
+    height: 150px;
+}
+.featureclass{
+    border: 1px solid red;
+    height: 300px;
+}
+.allposttext{
+    text-align: center;
+    height: 50px;
+}
+.featuretext{
+    text-align: center;
+    height: 50px;
+}
+.Description{
+    border: 1px solid red;
+    height: 200px;
+    text-align: center;
+}
+.footerclass{
+    border: 1px solid red;
+    height: 200px;
+    text-align: center;
+}
