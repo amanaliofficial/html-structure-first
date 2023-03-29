@@ -15,8 +15,26 @@
     margin-bottom: 10px;
   
 }
-
-
+#logo-div{
+	background-color: green;
+	width: 50px;
+}
+#home-div{
+	background-color: brown;
+	width: 50px;
+}
+#about-div{
+	background-color: green;
+	width: 50px;
+}
+#login-div{
+	background-color:brown;
+	width: 50px;
+}
+#signup-div{
+	background-color: green;
+	width: 50px;
+}
 
 
 #contectus-div{
@@ -29,6 +47,7 @@
     width: 100%;
     min-height: 400px;
     background-color: lightblue;
+	margin-bottom: 10px;
     
 }
 #map-div{
