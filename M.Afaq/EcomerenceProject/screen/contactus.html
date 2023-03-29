@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <style>
+      body{
+	margin: 0;
+}
+/* .container{
+	width: 100vw;
+	height:100vh;
+
+	font-weight: bold;
+	font-size: 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 50px 1fr 1fr 100px;
+	gap: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+} */
+.container div{
+	padding: 10px;
+	border: 1px solid;
+}
+.header{
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+.map{
+	grid-row-start: 2;
+	grid-row-end: span 2;
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+.content{
+	grid-row-start: 2;
+	grid-row-end: span 2;
+	grid-column-start: 3;
+	grid-column-end: 4;
+}
+.footer{
+	grid-column: 1/4;
+}
+.info{
+	gap: 10px;
+	padding: 10px;
+}
+    </style>
+    <title>contactus</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="hotnews">
+        <marquee class="textslide">
+          Hot News about any issue like (Covid, Zalzlah)
+        </marquee>
+      </div>
+      <section>
+        <div>
+          <div class="logo">
+            <a href="./yFram.html">Logo</a>
+            <div>
+              <input />
+              <button>Search</button>
+            </div>
+          </div>
+          <nav class="navbar">
+            <a href="./yFram.html">Home</a>
+            <a href="./product.html">Product</a>
+            <a href="./signlePage.html">Single Product</a>
+            <a href="./cartPage.html">Cart Page</a>
+            <a href="./aboutus.html">About Us</a>
+            <a href="./contactus.html">Contact Us</a>
+            <a href="./dashboardcustmer.html">Dashborad Custmar</a>
+            <a href="./dashboradadmin.html">Dashborad Admin</a>
+          </nav>
+        </div>
+      </section>
+      <div class="container">
+        <div class="header">Header</div>
+        <div class="map"> map</div>
+        <div class="content">
+            <div class="info">name</div>
+            <div class="info">email</div>
+            <div class="info">subject</div>
+            <div class="info"> message</div>
+            <div class="info">submit</div>
+        </div>
+        <div class="footer">footer</div>
+        
+        
+    </div>
+    </div>
+  </body>
+</html>
