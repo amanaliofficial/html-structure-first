@@ -1,44 +1,57 @@
-body{
-	margin: 0;
+*{
+    /* this remove margin and padding from all elements */
+    margin: 0px;
+    padding: 0px;
+    /* this make pasding and border part of width */
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.container{
-	width: 100vw;
-	height:100vh;
-	/* this condainer take width and hight of all pade */
-	font-weight: bold;
-	font-size: 20px;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 50px 1fr 1fr 100px;
-	gap: 10px;
-	padding: 10px;
-	box-sizing: border-box;
+#nav-div{
+    background-color: lightcoral;
+    width: 100%;
+    min-height: 50px;
+    padding-left:2%;
+    line-height: 50px;
+    margin-bottom: 10px;
+  
 }
-.container div{
-	padding: 10px;
-	border: 1px solid;
+#logo-div{
+	background-color: green;
+	width: 50px;
 }
-.header{
-	grid-column-start: 1;
-	grid-column-end: 4;
+#home-div{
+	background-color: brown;
+	width: 50px;
 }
-.map{
-	grid-row-start: 2;
-	grid-row-end: span 2;
-	grid-column-start: 1;
-	grid-column-end: 3;
+#about-div{
+	background-color: green;
+	width: 50px;
 }
-.content{
-	grid-row-start: 2;
-	grid-row-end: span 2;
-	grid-column-start: 3;
-	grid-column-end: 4;
+#login-div{
+	background-color:brown;
+	width: 50px;
 }
-.footer{
-	grid-column: 1/4;
-}
-.info{
-	gap: 10px;
-	padding: 10px;
+#signup-div{
+	background-color: green;
+	width: 50px;
 }
 
+
+#contectus-div{
+    width: 100%;
+    min-height: 400px;
+    background-color: lightgray;
+	margin-bottom: 10px;
+}
+#address-div{
+    width: 100%;
+    min-height: 400px;
+    background-color: lightblue;
+	margin-bottom: 10px;
+    
+}
+#map-div{
+	width: 100%;
+    min-height: 400px;
+    background-color: lightslategray;
+}
