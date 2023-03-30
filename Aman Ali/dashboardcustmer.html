@@ -6,6 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../style.css" />
     <title>dashboardcustmer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style1.css">
+    <title>About Us</title>
+    
+    <style>
+            *{
+         margin: 0;
+         padding: 0;
+         text-decoration: none;
+         list-style-type: none;
+         box-sizing: border-box;
+         } 
+         body{
+         font-family: montserrat;
+         }
+         .nav ul li a{
+         padding: 10px;
+         }
+         .main{
+         margin: 0;
+         padding: 0;
+         }
+         .text1{
+         margin-left: -12%;
+         color: #31ecec;
+         }
+         .navbar1{
+         background-color: #142D62;
+         }
+         .btn1{
+         color: #31ecec;
+         border: 1px solid #31ecec;
+         }
+         .btn1:hover{
+         background-color: #31ecec;
+         }
+         .span1{
+         color: #31ecec;  
+         }       
+         .collapse .navbar-nav .nav-item .nav-link{
+         color: white;
+         }
+         .collapse .navbar-nav .nav-item .nav-link:hover{
+         color: #31ecec;
+         }
+         /* Social Icon */
+         .icons{
+         margin-left: 10%;
+         }
+         .fa {
+         padding: 10px;
+         font-size: 23px;
+         width: 45px;
+         text-align: center;
+         text-decoration: none;
+         margin: 5px 2px;
+         border-radius: 50%;
+         background-color: #142D62;
+         color: white;
+         }
+         .fa:hover {
+         opacity: 0.7;
+         }
+         /* Social Icon */
+         /* Background Image */
+         .back-img{
+         height: 500px;
+         }
+         .footer1{
+         border: 1px solid #142D62;
+         background-color: #142D62;
+         }
+    </style>
     <style>
       body {
    
@@ -175,36 +250,110 @@
   </head>
   <body>
     <div class="container">
+
+      <div class="row g-0  border-mute border-bottom">
+        <div class="col-lg-6">
+           <div class="icons d-flex">
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-instagram"></a>
+              <a href="#" class="fa fa-linkedin"></a>
+              <a href="#" class="fa fa-pinterest"></a>
+           </div>
+        </div>
+        <div class="col-lg-6">
+           <div class="m-3 d-flex justify-content-evenly">
+              <a>Dashboard Customer</a>
+              <div class="border-end border-secondary"></div>
+              <a>Dashboard Admin</a>
+              <div class="border-end border-secondary"></div>
+              <a>Sign Up</a>
+              <div class="border-end border-secondary"></div>
+           </div>
+        </div>
+     </div>
+     <!-- 1st Row End -->
+     <!-- 2nd Row Start -->
+     <div class="row g-0">
+        <div class="col-lg-12">
+           <nav class="navbar1 navbar navbar-expand-lg navbar-light ps-5 pe-5">
+              <div class="container-fluid">
+                 <div class="d-flex">
+                    <div>
+                       <img src="Logo.png" alt="logo" width="100">
+                    </div>
+                    <div>
+                       <h4 class="text1 fst-italic pt-3">E-BAZAAR</h4>
+                    </div>
+                 </div>
+                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+                 </button>
+                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                       <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                       </li>
+                       <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="./About.html">About Us</a>
+                       </li>
+                       <li class="nav-item">
+                          <a class="nav-link active " aria-current="page" href="../M.Afaq/contactus.html">Contact Us</a>
+                       </li>
+                       <li class="nav-item">
+                          <a class="nav-link " href="#">Link</a>
+                       </li>
+                       <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Product
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                             <li><a class="dropdown-item" href="#">All Product</a></li>
+                             <li><a class="dropdown-item" href="#">Catagories</a></li>
+                             <li>
+                                <hr class="dropdown-divider">
+                             </li>
+                             <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          </ul>
+                       </li>
+                       <li class="nav-item">
+                          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Cart Page</a>
+                       </li>
+                    </ul>
+                    <form class="d-flex">
+                       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                       <button class="btn btn1" type="submit">Search</button>
+                    </form>
+                 </div>
+              </div>
+           </nav>
+        </div>
+     </div>
+     <!-- 2nd Row End -->
+     <!-- 3rd Row Start -->
+     <div class="row g-0">
+        <div class="col-lg-12">
+           <div class="bg-dark border border-dark">
+              <h6 class="text-white text-center fst-italic p-2"><span class="span1">HOT DEALS</span> Sale Up To 50% Biggest Discounts. Hurry! Limited Perriod Offer <a href="#" class="span1">Shop Now</a></h6>
+           </div>
+        </div>
+     </div>
+   </div>
+ 
+ 
+
+
+
       <div class="hotnews">
-        <marquee class="textslide">
-          Hot News about any issue like (Covid, Zalzlah)
-        </marquee>
       </div>
       <section>
         <div>
-          <div class="logo">
-            <a href="./yFram.html">Logo</a>
-            <div>
-              <input />
-              <button>Search</button>
-            </div>
-          </div>
-          <nav class="navbar">
-            <a href="./yFram.html">Home</a>
-            <a href="./product.html">Product</a>
-            <a href="./signlePage.html">Single Product</a>
-            <a href="./cartPage.html">Cart Page</a>
-            <a href="./aboutus.html">About Us</a>
-            <a href="./contactus.html">Contact Us</a>
-            <a href="./dashboardcustmer.html">Dashborad Custmar</a>
-            <a href="./dashboradadmin.html">Dashborad Admin</a>
-          </nav>
         </div>
       </section>
       <div class="box-form">
         <div class="left">
           <div class="overlay">
-          <h2>peoductsq</h2>
+          <h2>Dashboard Custumer</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Curabitur et est sed felis aliquet sollicitudin</p>
           <span>
@@ -217,8 +366,8 @@
         
         
           <div class="right">
-          <h5>Login</h5>
-          <p>Don't have an account? <a href="#">Creat Your Account</a> it takes less than a minute</p>
+          <h1>Login</h1>
+          <h6>Don't have an account? <a href="#">Creat Your Account</a> it takes less than a minute</h6>
           <div class="inputs">
             <input type="text" placeholder="user name">
             <br>
