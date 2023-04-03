@@ -578,3 +578,26 @@ button {
     width: 100%;
   }
 }
+
+
+/* .............admin dashboard...... */
+
+.row.content {
+  height: 500px ;
+  margin: 0%;
+  padding: 0%;
+  margin-top: 10px;
+  
+}
+
+.sidenav {
+  background-color: #18becd;
+  height: 96%;
+  border-radius: 7px;
+}
+.well{
+
+}
+.webpage{
+  background-color: #563434;
+}
